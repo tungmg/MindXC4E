@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
+</head>
+<body class="bg-dark">
+        <canvas id="canvas" class="shadow3333" style="margin-left: 24%" width="715" height="602"></canvas>
+        <div id="title" class="font-size-50 font-time-new-romance font-weight-bold position-absolute l-35-percents top-50">Choose your vehicle</div>
+        <div id="carChose" class="position-absolute height-150 l-30-percents top-210 width-600">
+            <button class="radius-10 position-relative shadow3311 width-160 height-150" id="carChose1" onclick="play()">
+                <img src="img/Black_viper.png" alt="">
+            </button>
+            <button class="radius-10 position-relative shadow3311 width-160 height-150 l-50" id="carChose2" onclick="play()">
+                <img src="img/Audi.png" alt="">
+            </button>
+            <button  class="radius-10 position-relative shadow3311 width-160 height-150 l-100" id="carChose3" onclick="play()">
+                <img src="img/AmericanMuscle.png" alt="">
+            </button>
+        </div>
+        <div id="div_score" class="position-absolute l-10-percents top-10 bg-cl-flowerblue radius-5 shadow5511 width-120 height-50 font-size-20 border-2" style="width: 120px">
+            <span id="score_text" class="score position-relative top-10 padding-5 font-weight-bold">Score: </span><span id="score" class="score position-relative top-10 padding-5">0</span>
+        </div>
+        <div id="div_highScore" class="position-absolute l-10-percents top-10 shadow5511 bg-cl-flowerblue radius-5 width-120 height-70 font-size-20 top-100 border-2">
+            <span id="highScore_text" class="highScore position-relative padding-5 font-weight-bold">High Score: </span><span id="highScore" class="highScore position-relative top-10 padding-5"></span>
+        </div>
+        <div id="restartDiv" class="position-absolute l-10-percents width-120 height-70 display-none top-210 ">
+            <button id="restartBtn" class="color-white shadow3311 position-relative height-70 width-120 font-size-20 font-time-new-romance bg-black" style="margin-bottom: 30px">Restart</button>
+            <button id="saveBtn" class="color-white shadow3311 position-relative height-70 width-120 font-size-20 font-time-new-romance bg-black">Save</button>
+        </div>
+        <div id="alertDiv" class="color-black position-absolute shadow3311 width-250 font-time-new-romance display-none height-150 l-558 top-210 border-3 bg-cl-mediumpurple">
+            <h2 style="text-align: center; ">SAVED SUCCESSFULLY</h2>
+            <button id="OKBtn" class="shadow1111 position-relative font-time-new-romance font-size-20 width-60 bg-black color-white height-30 l-36-percents">OK</button>
+        </div>
+        <audio id="au_background_id" loop>
+            <source src="audio/back.mp3">
+        </audio>
+</body>
+<script src="script.js"></script>
+</html>

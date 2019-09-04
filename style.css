@@ -1,0 +1,173 @@
+.bg-dark{
+    background-color: darkslategray;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.shadow3333{
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.shadow3311{
+    box-shadow: 3px 3px 1px 1px;
+}
+
+.shadow5511{
+    box-shadow: 5px 5px 1px 1px;
+}
+
+.shadow1111{
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.top-10{
+    top: 10px;
+}
+
+.top-100{
+    top: 100px;
+}
+
+.top-50{
+    top: 50px;
+}
+
+.top-210{
+    top: 210px;
+}
+
+.width-120{
+    width: 120px;
+}
+
+.width-600{
+    width: 600px;
+}
+
+.width-250{
+    width: 250px;
+}
+
+.width-60{
+    width: 60px;
+}
+
+.width-120{
+    width: 120px;
+}
+
+.height-150{
+    height: 150px;
+}
+
+.height-70{
+    height: 70px;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-30{
+    height: 30px;
+}
+
+.radius-10{
+    border-radius: 10px;
+}
+
+.radius-5{
+    border-radius: 5px;
+}
+
+.padding-5{
+    padding: 5px;
+}
+
+.bg-cl-flowerblue{
+    background-color: cornflowerblue;
+}
+
+.bg-cl-mediumpurple{
+    background-color: mediumpurple;
+}
+
+.border-2{
+    border: 2px solid black;
+}
+
+.border-3{
+    border: 3px solid black;
+}
+
+.display-none{
+    display: none;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-black{
+    color: black;
+}
+
+.width-160{
+    width: 160px;
+}
+
+.l-30-percents{
+    left: 29.5%;
+}
+
+.l-50{
+    left: 50px;
+}
+
+.l-100{
+    left: 100px;
+}
+
+.l-558{
+    left: 558px;
+}
+
+.l-36-percents{
+    left: 36%;
+}
+.l-50-percents{
+    left: 50%;
+}
+.l-35-percents{
+    left: 35%;
+}
+
+.l-10-percents{
+    left: 10%;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.font-size-50{
+    font-size: 50px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-time-new-romance{
+    font-family: 'Times New Roman', Times, serif;
+}
